@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -16,6 +17,9 @@
         </header>
 
         <section class="score-panel">
+          
+          <!-- clock monitor -->
+          <span class="clock">0:00</span>
         	<ul class="stars">
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
@@ -80,7 +84,27 @@
             </li>
         </ul>
     </div>
-
+  
+  <!-- Results Page -->
+  
+  <div class="modal_background">
+  <div class="modal_body"></div>
+  </div>
+  <div class="modal_heading">
+    <h1 class="modal_title">Stats</h1>
+    <span class="modal_close">x</span>
+  </div>
+  <div class="modal_stats">
+    <span class="modal_time">Time =</span>
+    <span class="modal_stars">Stars =</span>
+    <span class="modal_moves">Moves =</span>
+  </div>
+  <div class="modal_buttons">
+    <button class="modal_button modal_cancel">Cancel</button>
+    <button class="modal_button modal_replay">Replay</button>
+  </div>
+  <div class="modal_background hide">
+  </div>
     <script src="js/app.js"></script>
 </body>
 </html>
