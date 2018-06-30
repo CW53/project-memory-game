@@ -161,3 +161,25 @@ h1 {
 .hide {
   display: none;
 }
+
+@media all and (display-mode: standalone) {
+  .container {
+    margin: 0;
+  }
+}
+
+@media all and (overflow-inline: scroll) {
+  .modal_body {
+    color: blue;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  div {
+    flex-direction: column;
+  }
+  section {
+    flex-direction: column;;
+  }
+}
+}
