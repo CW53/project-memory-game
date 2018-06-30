@@ -18,3 +18,11 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## How to Play the Game
+
+It's just like a traditional memory/match game. Just match the identical cards to each other in order to win.
+
+## Dependencies
+
+This game relies on font awesome to function, so watch out for that.
